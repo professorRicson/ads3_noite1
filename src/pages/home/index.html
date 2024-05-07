@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMASLGBT</title>
-    <link rel="stylesheet" href="../../styles/home.css">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <script src="../../scripts/header.js" defer></script>
 </head>
+
 <body>
     <header>
-        <img class="icons" src="../../Asserts/AMASLGBT.jpg" alt="Logo AMASLGBT">
-        <ul>
-            <li><a>INICIO</a></li>
-            <li><a>NOTICIAS</a></li>
-            <li><a>AJUDA</a></li>
-            <li><a>DENUNCIE</a></li>
+        <img class="icons" id="logo" src="../../Asserts/AMASLGBT.jpg" alt="Logo AMASLGBT">
+        <ul id="navBar">
+            <li><a href="">INICIO</a></li>
+            <li><a href="">NOTICIAS</a></li>
+            <li><a href="">AJUDA</a></li>
+            <li><a href="">DENUCIE</a></li>
             <li><a href="">DOAÇÃO</a></li>
             <li><a href="">CONTATO</a></li>
         </ul>
@@ -21,15 +25,62 @@
             <input type="search" name="search" id="search">
             <img class="icons" src="../../Asserts/search.png" alt="search">
         </div>
-        <img class="icons" src="../../Asserts/instagram.svg" alt="instagram">
-        <img class="icons" src="../../Asserts/menu.png" alt="menu">
+        <a>
+            <img class="icons" id="instagram" src="../../Asserts/instagram.svg" style="width: 35px" alt="instagram">
+        </a>
+        <a href="#" id="menu" onclick="handleClick()">
+            <img class="icons menu" id="imgMenu" src="../../asserts/menu.png" alt="menu">
+        </a>
     </header>
     <main>
 
     </main>
     <footer>
-        AMASLGBT
-        @COPY
+        <div class="container">
+            <div class="redes">
+                <h3>Siga-Nos</h3>
+                <div>
+                    <img class="icons-social" src="../../asserts/facebook.png" alt="icone do facebook">
+                    <img class="icons-social instagram" src="../../asserts/instagram.svg" alt="icone do instagram">
+                </div>
+            </div>
+            <div class="information">
+                <h3>Informações de contato</h3>
+                <ul class="information-content">
+                    <li class="content">
+                        <h3>Endereço:</h3>
+                        <address>
+                            <img class="iconsAzul" src="../../asserts/pepicons-pencil--letter.svg" alt="adress">Q
+                            19, Quilombo 3, Palmares - PE
+                        </address>
+                    </li>
+                    <li class="content">
+                        <h3>Telefone:</h3><a href="tel:+"><img class="iconsAzul"
+                                src="../../asserts/mynaui--telephone.svg" alt="mobile"> - 81</a>
+                    </li>
+                    <li class="content">
+                        <h3>Dispositivo móvel:</h3><a><img class="iconsAzul"
+                                src="../../asserts/game-icons--smartphone.svg" alt="smartphone"> - 81</a>
+                    </li>
+                    <li class="content">
+                        <h3>E-mail:</h3><a href="mailto:" style="color: whitesmoke;"><img class="iconsAzul"
+                                src="../../asserts/email.svg" alt="Email"> - amaslgbt@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Menu</h3>
+                <hr>
+                <a class="menu-button" href="#">Início</a>
+                <hr>
+                <a class="menu-button" href="#">Posts</a>
+                <hr>
+                <a class="menu-button" href="#">Contato</a>
+                <hr>
+            </div>
+        </div>
+        <h3 id="copyright">Copyright - IFPE Palmares</h3>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: sans-serif, 'Arial';
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 10%;
+}
+
+ul.navBar {
+    display: flex;
+    list-style: none;
+
+    & li {
+        margin: 10 20px;
+        padding: 10px;
+        & a:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+}
+
+.icons {
+    width: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    & .icons {
+        width: 35px;
+    }
+    & #logo {
+        width: 60px;
+    }
+    & :nth-child(1) {
+        width: 50px;
+    }
+    & :nth-child(5) {
+       display: none;
+    }
+
+    & div {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        & img {
+            margin-right: 3%;
+        }
+        & #search {
+            margin-left: 30%;
+            margin-right: 2%;
+            width: 70%;
+            padding: 7px;
+            border-radius: 7px;
+        }
+    }
+
+    & ul {
+        margin: 10px;
+        display: flex;
+        list-style: none;
+        & li {
+            margin-left: 35px;
+            font-weight: bolder;
+            & a {
+                text-decoration: none;
+                color: black;
+                
+            }
+            & a:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    & icons {
+        width: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        & img {
+            width: 30px;
+            & :hover {
+                cursor: pointer;
+            }
+        }
+        & div {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            & img {
+                margin-right: 2%;
+            }
+            & #search {
+                margin-left: 2%;
+                margin-right: 2%;
+                width: 70%;
+                padding: 7px;
+                border-radius: 7px;
+            }
+        }
+    
+        & ul {
+            margin: 7px;
+            display: flex;
+            list-style: none;
+            & li {                                                                                                                                                  
+                margin-left: 10px;
+                & a {               
+                    text-decoration: none;
+                    color: black;
+                    
+                }
+                & a:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+}
+ 
+@media (max-width: 850px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        & img {
+            width: 30px;
+            & :hover {
+                cursor: pointer;
+            }
+        }
+        & :nth-child(1) {
+            width: 35px;
+        }
+        & :nth-child(5) {
+            display: flex;
+            width: 30px;
+        } 
+        & #instagram {
+            display: none;
+        }
+
+        & div {
+            display: none;
+        }
+        & ul {
+            display: none;
+        }
+    }
+    
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        & img {
+            width: 30px;
+            & :hover {
+                cursor: pointer;
+            }
+        }
+        & :nth-child(1) {
+            width: 40px;
+        }
+        & :nth-child(5) {
+            display: flex;
+            width: 30px;
+            margin-right: 7%;
+        }
+
+        & #instagram{
+            display: none;
+        }
+
+        & div {
+            display: none;
+
+        }
+        & ul {
+            display: none;
+        }
+    }
+    
+}
+
+.isDasabled {
+    display: none;
+    width: 200px;
+}
