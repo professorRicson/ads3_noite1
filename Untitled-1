@@ -1,0 +1,33 @@
+<!DOCTYPE <html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+        <h1>Formulário de Cadastramento da<br>População LGBTQIA+ da Mata Sul de<br> Pernambuco ( AMAS-LGBT )</h1>
+    </div>
+    <form>
+        <div>
+            <label>E-mail</label> <br>
+        <input type="text" name="email" id="email">
+        </div>
+
+        <div>
+            <label>Qual é o seu nome de registro civil ou social  completo ?</label> <br>
+            <input type="text" name="Sua resposta"id="Sua resposta" >
+        </div>
+        <div>
+            <label>Qual é sua idade ?</label> <br>
+            <input type="text" name="Sua resposta"id="Sua resposta" >
+        </div>
+    
+    
+    </form>
+    
+</body>
+</html>
