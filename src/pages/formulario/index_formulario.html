@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastramento da População LGBTQIA+ da Mata Sul de Pernambuco (AMAS-LGBT)</title>
+    <link rel="stylesheet" href="style_formulario.css">
+</head>
+
+<body>
+    <header>
+        <img class="icons" id="logo" src="../../Asserts/AMASLGBT.jpg" alt="Logo AMASLGBT">
+        <ul id="navBar">
+            <li><a href="../../../index.html">INICIO</a></li>
+            <li><a href="../parcerias/parcerias.html">PARCERIAS</a></li>
+            <li><a href="../apresentacao/index.html ">APRESENTAÇÃO</a></li>
+            <li><a href="../formulario/index_formulario.html">DENUCIE</a></li>
+            <li><a href="../date/index.html">DATAS</a></li>
+            <li><a href="../membros/membros.html">MEMBROS</a></li>
+        </ul>
+        <div>
+            <input type="search" name="search" id="search">
+            <img class="icons" src="../../Asserts/search.png" alt="search">
+        </div>
+        <a href="https://www.instagram.com/amaslgbt/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+            target="_blank">
+            <img class="icons" id="instagram" src="../../Asserts/instagram.svg" style="width: 35px" alt="instagram">
+        </a>
+        <a href="#" id="menu" onclick="handleClick()">
+            <img class="icons menu" id="imgMenu" src="../../Asserts/menu.png" alt="menu">
+        </a>
+    </header>
+    <header>
+        <img id="foto_titulo" src="../../Asserts/AMASLGBT.jpg" alt="Logo AMAS-LGBT" class="logo">
+        <h1>Formulário de Cadastramento da População LGBTQIA+ da Mata Sul de Pernambuco (AMAS-LGBT)</h1>
+    </header>
+    <div class="container">
+    
+        </header>
+        <form action="#" method="POST">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nome">Qual é o seu nome de registro civil ou social completo? *</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="idade">Qual é sua idade? *</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <label for="telefone">Qual é o número do seu telefone (WhatsApp)? *</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="sexualidade">Qual sua sexualidade? *</label>
+            <select id="sexualidade" name="sexualidade" required>
+                <option value="Heterossexual">Heterossexual</option>
+                <option value="Gay">Gay</option>
+                <option value="Lésbica">Lésbica</option>
+                <option value="Bissexual">Bissexual</option>
+                <option value="Pansexual">Pansexual</option>
+                <option value="Assexual">Assexual</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="genero">Qual é sua Identidade de Gênero? *</label>
+            <select id="genero" name="genero" required>
+                <option value="Homem Cis">Homem Cis</option>
+                <option value="Mulher Cis">Mulher Cis</option>
+                <option value="Homem Trans">Homem Trans</option>
+                <option value="Mulher Trans">Mulher Trans</option>
+                <option value="Travestis">Travestis</option>
+                <option value="Interssexual">Interssexual</option>
+                <option value="Não Binária">Não Binária</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="cor-etnia">Qual é a sua cor/etnia? *</label>
+            <select id="cor-etnia" name="cor-etnia" required>
+                <option value="Branca">Branca</option>
+                <option value="Parda">Parda</option>
+                <option value="Negra">Negra</option>
+                <option value="Indigena">Indigena</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="religiao">Qual é a sua religião?</label>
+            <select id="religiao" name="religiao">
+                <option value="Católica">Católica</option>
+                <option value="Protestante">Protestante</option>
+                <option value="Espirita">Espirita</option>
+                <option value="De matriz africana">De matriz africana</option>
+                <option value="Acredito em um ser supremo">Acredito em um ser supremo</option>
+                <option value="Ateu">Ateu</option>
+                <option value="Não tenho religião definida">Não tenho religião definida</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="cidade">Qual é a cidade onde você mora? *</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="mora-com">Com quem você mora? *</label>
+            <select id="mora-com" name="mora-com" required>
+                <option value="Sozinho/a">Sozinho/a</option>
+                <option value="Meus pais">Meus pais</option>
+                <option value="Parentes">Parentes</option>
+                <option value="Amigos">Amigos</option>
+            </select>
+
+            <label for="escolaridade">Qual é o seu grau de escolaridade? *</label>
+            <select id="escolaridade" name="escolaridade" required>
+                <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                <option value="Ensino médio Incompleto">Ensino médio Incompleto</option>
+                <option value="Ensino médio completo">Ensino médio completo</option>
+                <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+                <option value="Ensino superior completo">Ensino superior completo</option>
+                <option value="Não alfabetizado">Não alfabetizado</option>
+            </select>
+
+            <label for="trabalha">Você trabalha?</label>
+            <select id="trabalha" name="trabalha">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+                <option value="Talvez">Talvez</option>
+            </select>
+
+            <label for="conhece-amas">Você conhece ou já ouviu falar na AMAS-LGBT? *</label>
+            <select id="conhece-amas" name="conhece-amas" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+                <option value="Talvez">Talvez</option>
+            </select>
+
+            <label for="conheceu-amas">Caso sua resposta tenha sido SIM, como teve conhecimento?</label>
+            <select id="conheceu-amas" name="conheceu-amas">
+                <option value="Por redes sociais">Por redes sociais</option>
+                <option value="Por amigos">Por amigos</option>
+                <option value="Por conhecidos">Por conhecidos</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="quer-conhecer">Caso sua resposta tenha sido NÃO, você tem Vontade de Conhecer? *</label>
+            <select id="quer-conhecer" name="quer-conhecer" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+                <option value="Talvez">Talvez</option>
+            </select>
+
+            <label for="discriminado">Você já foi discriminado/a por ser LGBTQIA+? *</label>
+            <select id="discriminado" name="discriminado" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+                <option value="Talvez">Talvez</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div id="app-rugido">
+        <img src="../../Asserts/app-image.png" alt="image">
+        <div id="title-ap">
+            <span>
+                APLICATIVO MOBILE
+            </span>
+        </div>
+        <span class="subtitle">
+            USE O APP RUGIDO
+        </span>
+        <span>
+            A plataforma, que está disponível para download<br>
+            no Google Play Store,
+            é fruto do apoio e da parceria com o Fundo <br>
+            Brasil de Direitos Humanos,
+            por meio do projeto "Tecer, resistir e enfrentar<br>
+            as LGBTfobias no
+            interior pernambucano", e também com a EQUIP
+            – Escola<br> de Formação
+            Quilombo dos Palmares.
+        </span>
+        <button id="download">BAIXAR AGORA!</button>
+    </div>
+
+</body>
+</html>

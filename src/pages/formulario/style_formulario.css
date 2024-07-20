@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 40px;
+}
+
+#foto_titulo{
+    height: 100px;
+    margin-right: 20px;
+}
+
+#navBar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar li {
+    display: inline;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    flex: 1;
+    padding-top: 80px; /* espaço para o header fixo */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #431a57;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8a6c9e;
+}
+
+#app-rugido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #e0dfe0;
+    text-align: center;
+}
+
+#app-rugido img {
+    max-width: 100%;
+    height: auto;
+}
+
+#download {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#download:hover {
+    background-color: #218838;
+}
