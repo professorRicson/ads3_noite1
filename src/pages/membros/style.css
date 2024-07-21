@@ -42,16 +42,17 @@
     background-color: transparent;
     height: 104px;
     width: 104px;
+    border-radius: 50%;
 }
 
 .nome{
     font-family: "Rubik Mono One", monospace;
+    font-size: 15px;
     background-color: transparent;
     height: auto;
     letter-spacing: 0.00px;
     line-height: normal;
     text-align: left;
-    width: 81px;
     display:grid;
 }
 .info{
@@ -65,12 +66,12 @@
 }
 .cargo{
     font-family: "Rubik Mono One", monospace;
+    font-size: 13px;
     background-color: transparent;
     height: auto;
     letter-spacing: 0.00px;
     line-height: normal;
     text-align: left;
-    width: 81px;
     display:grid; 
 }
 .instagram{
