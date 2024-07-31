@@ -46,7 +46,7 @@ header {
     & :nth-child(1) {
         width: 50px;
     }
-    & :nth-child(5) {
+    & #menu {
        display: none;
     }
 
@@ -157,7 +157,7 @@ header {
         & :nth-child(1) {
             width: 35px;
         }
-        & :nth-child(5) {
+        & #menu {
             display: flex;
             width: 30px;
         } 

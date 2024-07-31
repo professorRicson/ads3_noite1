@@ -4,7 +4,7 @@
     padding: 15px;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .icons-social {
@@ -45,18 +45,22 @@
     justify-content: start;
     list-style: none;
     & li {
+        & h3 {
+            font-size: 15px;
+        }
         & a {
             display: flex;
             justify-content: center;
             align-items: center;
             text-decoration: none;
             color: #777777;
-            font-size: 15px;
+            font-size: 13px;
         }
         & a:hover {
             cursor: pointer;
             text-decoration: underline;
         } & address {
+            font-size: 13px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -68,7 +72,7 @@
 
 
 .icons-blue {
-    width: 15px;
+    width: 10px;
     padding: 10px;
     filter: invert(28%) sepia(76%) saturate(2470%) hue-rotate(2010deg) brightness(110%) contrast(120%);
     margin-right: 20px;
@@ -94,7 +98,7 @@ hr {
 .menu-button {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .menu-button:hover {

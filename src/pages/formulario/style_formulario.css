@@ -1,24 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    top: 0;
+    height: 100vh;
     width: 100%;
-    background-color: #f8f9fa;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    height: 40px;
+    font-family: Arial, sans-serif;
 }
 
 #foto_titulo{
@@ -26,27 +16,17 @@ header img {
     margin-right: 20px;
 }
 
-#navBar {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-#navBar li {
-    display: inline;
-}
-
-#navBar a {
-    text-decoration: none;
-    color: #000;
-}
-
 .container {
     flex: 1;
-    padding-top: 80px; /* espaço para o header fixo */
-    padding: 20px;
+    padding-top: 80px; /* espaço para o header fixo  */
+    padding: 20px;  
+
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
 }
 
 form {
@@ -96,6 +76,7 @@ form button:hover {
 
 #download {
     padding: 10px 20px;
+    text-decoration: none;
     border: none;
     border-radius: 4px;
     background-color: #28a745;
