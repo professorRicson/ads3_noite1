@@ -12,6 +12,10 @@
     box-shadow: 0 5px rgba(0, 0, 0, 0.7);
 }
 
+* {
+    font-family: Arial, sans-serif;
+}
+
 #details-container-title {
     margin: 30px;
     width: 80%;
