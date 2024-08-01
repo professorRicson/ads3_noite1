@@ -2,10 +2,6 @@
     width: 80%;
 }
 
-* {
-    font-family: "Rubik Mono One", monospace;
-}
-
 main{
     display: flex;
     flex-direction: column;
