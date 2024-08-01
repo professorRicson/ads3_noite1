@@ -89,3 +89,10 @@ form button:hover {
 #download:hover {
     background-color: #218838;
 }
+
+#report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a793a7;
+}

@@ -3,12 +3,12 @@
     border: 1px solid;
     border-radius: 26px;
     box-shadow: 0px 4px 4px #00000040, 7px 14px 22px #00000040;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
 }
-
+    
 .membrosDaAmas{
     background-color: transparent;
     color: #2f76b7;
@@ -20,14 +20,15 @@
     line-height: normal;
     text-align: center;
     width: auto;
+    }
+    
+.card-image{
+    background-color: transparent;
+    height: 343px;
+    width: 296px;
+    border-radius: 45px;
 }
 
-.card-image{
-        background-color: transparent;
-        height: 343px;
-        width: 296px;
-        border-radius: 45px;
-}
 
 .profile-image{
     background-color: transparent;
@@ -102,7 +103,7 @@
     margin-bottom: 25px;
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
     .membros {
         width: 1000px;
     }
@@ -127,4 +128,4 @@
         width: 300px;
         margin: 20px auto;
     }
-}
+} */
