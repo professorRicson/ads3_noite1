@@ -83,7 +83,7 @@
 }
 
 .profile-card{
-    background-image: url(../../Asserts/image-card.png);
+    background-image: url(../../asserts/image-card.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 280px;
