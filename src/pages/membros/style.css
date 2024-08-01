@@ -20,7 +20,7 @@
     line-height: normal;
     text-align: center;
     width: auto;
-    }
+}
     
 .card-image{
     background-color: transparent;
@@ -57,9 +57,6 @@
     display:grid;
 }
 
-.blue{
-    background-color: #2f76b7;
-}
 
 .info{
     width: 100%;
