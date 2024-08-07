@@ -1,3 +1,8 @@
+.activated {
+    height: 20hv;
+}
+
+
 .navBar {
     display: flex;
     flex-direction: column;
