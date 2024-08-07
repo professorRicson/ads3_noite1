@@ -19,11 +19,11 @@ const handleClick = () => {
     if (isActivated) {
         img_menu.src = x != 'home' ?  '../../asserts/x.png' : './src/asserts/x.png';
         navBar.classList.add('navBar');
-        header.classList.add('activated');
+        header.className = 'activated';
     }
     else {
         img_menu.src = x != 'home' ? '../../asserts/menu.png' : './src/asserts/menu.png';
         navBar.classList.remove('navBar');
-        header.classList.remove('activated');
+        header.className  = '';
     }
 };
