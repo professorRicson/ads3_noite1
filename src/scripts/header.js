@@ -14,7 +14,7 @@ window.addEventListener("resize", (event) => {
 const handleClick = () => {
     isActivated = !isActivated;
     const path = window.location.pathname.split('/');
-    const x = path[path.length - 2] || 'home';
+    const x = path[path.length - 1] || 'home';
     console.log("path: ", x);
     if (isActivated) {
         img_menu.src = x != 'home' ?  '../../asserts/x.png' : './src/asserts/x.png';
