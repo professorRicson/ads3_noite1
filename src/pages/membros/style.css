@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .membros{
     background-color: #fdafc58a;
     border: 1px solid;

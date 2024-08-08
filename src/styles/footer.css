@@ -72,11 +72,11 @@
 
 
 .icons-blue {
-    width: 10px;
-    padding: 10px;
+    width: 22px;
+    padding: 3px; 
     filter: invert(28%) sepia(76%) saturate(2470%) hue-rotate(2010deg) brightness(110%) contrast(120%);
     margin-right: 20px;
-    border: #444040 1px solid;
+    border: #444040 1px solid; 
 }
 
 .content {

@@ -14,18 +14,15 @@ window.addEventListener("resize", (event) => {
 const handleClick = () => {
     isActivated = !isActivated;
     const path = window.location.pathname.split('/');
-    const x = path[path.length - 1] || 'home';
-    console.log("path: ", x);
+    const x = path.includes('src');
     if (isActivated) {
-        img_menu.src = x != 'home' ?  '../../asserts/x.png' : './src/asserts/x.png';
+        img_menu.src = x ?  '../../asserts/x.png' : './src/asserts/x.png';
         navBar.classList.add('navBar');
-        console.log(header);
         header.className = 'activated';
     }
     else {
-        img_menu.src = x != 'home' ? '../../asserts/menu.png' : './src/asserts/menu.png';
+        img_menu.src = x ? '../../asserts/menu.png' : './src/asserts/menu.png';
         navBar.classList.remove('navBar');
         header.className  = '';
-        console.log(header);
     }
 };
