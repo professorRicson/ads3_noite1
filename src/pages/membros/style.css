@@ -110,29 +110,54 @@
     margin-bottom: 25px;
 }
 
-/* @media (max-width: 1400px) {
+ @media (max-width: 1400px) {
     .membros {
         width: 1000px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .membros {
-        width: 700px;
-    }
-}
-
-@media (max-width: 700px) {
-    .membros {
-        width: 100%;
-        padding: 15px;
+        margin: 0 auto;
     }
 
     .profile-card,
     .profile-card2,
     .profile-card3,
     .profile-card4 {
-        width: 300px;
-        margin: 20px auto;
+        height: 100%;
     }
-} */
+}
+
+@media (max-width: 1000px) {
+    .membros {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin: 0 auto;
+        height: 75%;
+    }
+    body{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .membros {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    .profile-card,
+    .profile-card2,
+    .profile-card3,
+    .profile-card4 {
+        width:100%;
+        height: 28vh;
+        margin: auto;
+    }
+    .nome,
+    .cargo{
+        font-size: 10px;
+    }
+    body{
+        height: 100vh;
+    }
+    
+} 
