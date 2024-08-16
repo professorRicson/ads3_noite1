@@ -1,0 +1,38 @@
+#details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253,175,197);
+}
+
+#details-container-title {
+    margin: 30px;
+
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    background-color:blue;
+
+    width: 402px;
+    height: 413px;
+}
+
+#app-rugido {
+    background-color: rgba(223, 229, 237, 1.0);
+    display: flex;
+    flex-direction: column;
+    
+    width: 402px;
+    height: 413px;
+
+    border-radius: 26px;
+}
+
+img {
+    width: 100px;
+}
