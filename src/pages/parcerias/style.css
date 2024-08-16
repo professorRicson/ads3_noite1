@@ -1,0 +1,50 @@
+main {
+    font-family: "Rubik Mono One", monospace;
+    background-color: #f9adc3;
+    margin: 0;
+    padding: 90px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 150px;
+    font-size: 40px;
+}
+
+h1,
+h2 {
+    color: #334742;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.block {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.block img {
+    max-width: 200px;
+    height: auto;
+}

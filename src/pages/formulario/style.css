@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+#foto_titulo{
+    height: 100px;
+    margin-right: 20px;
+}
+
+.container {
+    flex: 1;
+    padding-top: 80px; /* espaço para o header fixo  */
+    padding: 20px;  
+
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #431a57;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8a6c9e;
+}
+
+#app-rugido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #e0dfe0;
+    text-align: center;
+}
+
+#app-rugido img {
+    max-width: 100%;
+    height: auto;
+}
+
+#download {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#download:hover {
+    background-color: #218838;
+}
+
+#report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a793a7;
+}

@@ -1,8 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    font: 'Roboto', 'Arial';
+.activated {
+    height: 20hv;
 }
+
 
 .navBar {
     display: flex;
@@ -11,6 +10,7 @@
     width: 100%;
     left: 50%;
     top: 10%;
+    background-color: #fff;
 }
 
 ul.navBar {
@@ -34,6 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     & .icons {
         width: 35px;
@@ -44,7 +45,7 @@ header {
     & :nth-child(1) {
         width: 50px;
     }
-    & :nth-child(5) {
+    & #menu {
        display: none;
     }
 
@@ -155,7 +156,7 @@ header {
         & :nth-child(1) {
             width: 35px;
         }
-        & :nth-child(5) {
+        & #menu {
             display: flex;
             width: 30px;
         } 

@@ -1,11 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background-color: rgb(211, 63, 132);
-
 }
 
 main {
-    
     background-color: rgb(211, 63, 132);
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -13,53 +16,49 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
   
+#titles {
+  background-color: rgba(253, 175, 197, 0.836);
+  height: 200px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 26px;
+}
+#titles img {
+  margin-top: 5px;
+  width: 60px;
+}
+
+#timeline {
+  background-color: rgba(85, 40, 120, 0.582);
+  height: 300px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 26px;
+}
+#list-date {
+  width: 400px;
+  border-left: solid 2px;
+  padding-left: 12px;
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 10 10"><circle fill="purple" cx="7" cy="7" r="2"/></svg>');
+}
+/* 
+li { margin-left: -28px;}
+*/
+@media screen and (max-width: 800px) {
   #titles {
-    background-color: rgba(253, 175, 197, 0.836);
-    height: 200px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 26px;
+    margin: 10px;
   }
-  #titles img {
-    margin-top: 5px;
-    width: 60px;
+  #timeline{
+    margin: 10px;
+    height: 400px;
+    overflow: auto;;
   }
- 
-  #timeline {
-    background-color: rgba(85, 40, 120, 0.582);
-    height: 300px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 26px;
+  ul {
+    margin: 10px;
   }
-  #list-date {
-    width: 400px;
-    border-left: solid 2px;
-    padding-left: 12px;
-    
-    
-    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 10 10"><circle fill="purple" cx="7" cy="7" r="2"/></svg>');
-    
-  }
-  /* 
-  li { margin-left: -28px;}
- */
-  @media screen and (max-width: 800px) {
-    #titles {
-      margin: 10px;
-    }
-    #timeline{
-      margin: 10px;
-      height: 400px;
-      overflow: auto;;
-    }
-    ul {
-      margin: 10px;
-    }
-  } 
+} 
